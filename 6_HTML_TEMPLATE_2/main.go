@@ -36,7 +36,12 @@ func handler(w http.ResponseWriter, r *http.Request) {
 				BirthDate: "25.02.1993",
 				BirthCity: "Uşak"},
 			Information{
-				Name:      "Bİlge",
+				Name:      "Bilge",
+				Surname:   "Acel",
+				BirthDate: "26.6.2028",
+				BirthCity: "Ankara"},
+			Information{
+				Name:      "Erdem Uraz",
 				Surname:   "Acel",
 				BirthDate: "05.01.2018",
 				BirthCity: "Kocaeli"}}}
