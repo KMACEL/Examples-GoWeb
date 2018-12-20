@@ -33,7 +33,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			Information{
 				Name:      "Kübra",
 				Surname:   "Acel",
-				BirthDate: "25.02.1993",
+				BirthDate: "25.03.1993",
 				BirthCity: "Uşak"},
 			Information{
 				Name:      "Bilge",
@@ -43,7 +43,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			Information{
 				Name:      "Erdem Uraz",
 				Surname:   "Acel",
-				BirthDate: "05.01.2018",
+				BirthDate: "05.01.2019",
 				BirthCity: "Kocaeli"}}}
 
 	t, _ := template.ParseFiles("test.html")
